@@ -730,20 +730,20 @@ footer{
     margin-bottom: 50px;
   }
   .details {
-    padding: 33px 0 19px;
+    padding: 50px 0 40px;
   }
   .owl-carousel .owl-item.active {
     margin: 0 10px;
   }
   .device {
-    padding: 65px 0 35px;
+    padding: 70px 0 40px;
 
     .device__content {
       padding: 0;
     }
   }
   .product {
-    padding: 55px 0 65px 0;
+    padding: 60px 0 70px 0;
   }
   .price{
     .price__footer {
@@ -792,6 +792,6 @@ footer{
 }
 @media only screen and (max-width: 360px) {
   .background a.btn.btn-primary, .price__footer a.btn.btn-primary{
-    padding: 20px 17px;
+    padding: 20px 15px;
   }
 }
