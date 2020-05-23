@@ -596,7 +596,7 @@ footer{
     margin-bottom: 90px;
   }
   .product__responsive, .product__customizable {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
   .device {
     padding: 55px 0 19px;
@@ -636,12 +636,12 @@ footer{
   .device {
     .content_img {
       padding: 0;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
     }
   }
   .pricings_plans {
     ul {
-      margin-bottom: 50px;
+      margin-bottom: 70px;
 
       &:last-of-type {
         margin-bottom: 0;
@@ -718,7 +718,7 @@ footer{
       margin-right: 15px;
 
       &.btn.btn-primary {
-        padding: 20px 30px;
+        padding: 20px 25px;
       }
 
       &:last-of-type {
@@ -730,7 +730,7 @@ footer{
     margin-bottom: 50px;
   }
   .details {
-    padding: 50px 0 40px;
+    padding: 60px 0 65px;
   }
   .owl-carousel .owl-item.active {
     margin: 0 10px;
@@ -755,7 +755,7 @@ footer{
         margin-right: 15px;
 
         &.btn.btn-primary {
-          padding: 20px 37px;
+          padding: 20px 34px;
         }
 
         &:last-of-type {
@@ -775,8 +775,11 @@ footer{
   }
 }
 @media only screen and (max-width: 375px) {
-  .background a.btn.btn-primary, .price__footer a.btn.btn-primary{
+  .background a.btn.btn-primary,  .price .price__footer a.btn.btn-primary{
     padding: 20px 21px;
+  }
+  .price .price__footer p {
+    font-size: 32px;
   }
 }
 @media only screen and (max-width: 320px) {
