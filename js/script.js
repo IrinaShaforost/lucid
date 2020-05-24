@@ -2,6 +2,7 @@ $(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
         loop:true,
+        autoHeight:true,
         margin:0,
         nav:true,
         navText: [ '', ' ' ],

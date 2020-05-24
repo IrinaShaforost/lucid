@@ -332,10 +332,6 @@ a:nth-of-type(1) {
         position: relative;
         top: 3.5px;
       }
-      .owl-item.active{
-        width: 50%;
-        padding: 0 15px;
-      }
     }
   }
   .price__footer{
@@ -555,14 +551,10 @@ footer{
       margin-bottom: 38px;
     }
   }
-  .owl-carousel{
-  .owl-item.active{
-    padding: 0 15px;
-  }
-    .owl-dots{
+  .owl-carousel .owl-dots{
       margin-top: 80px;
     }
-  }
+
   footer {
     padding: 25px 0 15px;
     .footer__icon {
@@ -731,9 +723,6 @@ footer{
   }
   .details {
     padding: 60px 0 65px;
-  }
-  .owl-carousel .owl-item.active {
-    margin: 0 10px;
   }
   .device {
     padding: 70px 0 40px;

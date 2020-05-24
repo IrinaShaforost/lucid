@@ -300,9 +300,6 @@
     background-color: #ffffff;
     position: relative;
     top: 3.5px; }
-  .price .owl-carousel .owl-dots .owl-item.active {
-    width: 50%;
-    padding: 0 15px; }
 .price .price__footer {
   background-color: #15141a;
   padding: 66px 0; }
@@ -496,8 +493,6 @@ footer {
     font-size: 35px;
     margin-bottom: 38px; }
 
-  .owl-carousel .owl-item.active {
-    padding: 0 15px; }
   .owl-carousel .owl-dots {
     margin-top: 80px; }
 
@@ -616,9 +611,6 @@ footer {
 
   .details {
     padding: 60px 0 65px; }
-
-  .owl-carousel .owl-item.active {
-    margin: 0 10px; }
 
   .device {
     padding: 70px 0 40px; }
