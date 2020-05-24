@@ -4,6 +4,7 @@
 @import url(bootstrap.min.css);
 @import url(owl.carousel.min.css);
 @import url(owl.theme.default.min.css);
+@import url(animate.css);
 .product .title:before, .device .title:before, .details .details__description .title:before, .price__background .title:before, .pricings_plans .title:before, .contact_us .title:before, .product .title:after, .device .title:after, .details .details__description .title:after, .price__background .title:after, .pricings_plans .title:after, .contact_us .title:after {
   content: "";
   display: block;
