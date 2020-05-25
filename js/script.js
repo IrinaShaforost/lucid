@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         autoHeight:true,
-        margin:0,
+        margin: 10,
         nav:true,
         navText: [ '', ' ' ],
 
@@ -18,9 +18,6 @@ $(document).ready(function(){
             }
         }
     });
-    $( function() {
-        $( "#accordion" ).accordion();
-    } );
 });
 
 
