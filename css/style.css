@@ -215,7 +215,7 @@
     padding-top: 20px; }
 
 .details {
-  padding: 33px 19px; }
+  padding: 33px 0 19px; }
   .details .details__text {
     color: #999999;
     font-family: "Source Sans Pro";
@@ -494,7 +494,7 @@ footer {
     font-size: 35px;
     margin-bottom: 38px; }
 
-  .owl-carousel .owl-dots {
+  .price .owl-carousel .owl-dots {
     margin-top: 80px; }
 
   footer {
@@ -506,7 +506,7 @@ footer {
     padding: 60px 0 60px; }
 
   .details {
-    padding: 19px 19px; }
+    padding: 19px 0 19px; }
     .details .details__description {
       padding-top: 0; } }
 @media only screen and (max-width: 992px) {
@@ -541,6 +541,15 @@ footer {
     top: 0;
     margin-bottom: 30px; } }
 @media only screen and (max-width: 768px) {
+  .navbar-default {
+    margin-bottom: 15px; }
+    .navbar-default .navbar-toggle {
+      border: none; }
+      .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle .navbar-default .navbar-toggle:hover {
+        background-color: transparent; }
+      .navbar-default .navbar-toggle .icon-bar {
+        background-color: white; }
+
   .row {
     margin-left: 0;
     margin-right: 0; }
@@ -590,20 +599,17 @@ footer {
       text-align: center; }
     .price__footer .price__footer__link {
       text-align: center; } }
+@media only screen and (max-width: 6400px) {
+  .contact_us .contact_us__form {
+    padding: 60px 70px 100px 60px; } }
 @media only screen and (max-width: 420px) {
-  .navbar-default {
-    margin-bottom: 15px; }
-    .navbar-default .navbar-toggle {
-      border: none; }
-      .navbar-default .navbar-toggle .icon-bar {
-        background-color: white; }
-
   .background {
     padding: 0; }
     .background a {
       margin-right: 15px; }
       .background a.btn.btn-primary {
-        padding: 20px 25px; }
+        width: 45%;
+        padding: 20px 0; }
       .background a:last-of-type {
         margin-right: 0; }
 
@@ -622,13 +628,14 @@ footer {
     padding: 60px 0 70px 0; }
 
   .price .price__footer {
-    padding: 40px 0; }
+    padding: 40px 15px; }
     .price .price__footer p {
       font-size: 33px; }
     .price .price__footer a {
       margin-right: 15px; }
       .price .price__footer a.btn.btn-primary {
-        padding: 20px 27px; }
+        width: 45%;
+        padding: 20px 0; }
       .price .price__footer a:last-of-type {
         margin-right: 0; }
 
@@ -638,11 +645,11 @@ footer {
   .contact_us .contact_us__form {
     padding: 30px 15px 91px 15px; }
     .contact_us .contact_us__form .btn {
-      margin: 15px 15px 20px 0; } }
-@media only screen and (max-width: 375px) {
-  .background a.btn.btn-primary, .price .price__footer a.btn.btn-primary {
-    padding: 20px 21px; }
+      margin: 15px 15px 20px 0; }
 
+  .phone, .location {
+    margin-bottom: 50px; } }
+@media only screen and (max-width: 375px) {
   .price .price__footer p {
     font-size: 32px; } }
 @media only screen and (max-width: 320px) {
@@ -653,8 +660,5 @@ footer {
 
   .price__footer p {
     font-size: 31px; } }
-@media only screen and (max-width: 360px) {
-  .background a.btn.btn-primary, .price__footer a.btn.btn-primary {
-    padding: 20px 15px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -235,7 +235,7 @@ a:nth-of-type(1) {
   }
 }
 .details{
-  padding: 33px 19px;
+  padding: 33px 0 19px;
   .details__text{
     @include font-color(#999999, $ssp, 17px, 400, 26px);
   }
@@ -552,7 +552,7 @@ footer{
       margin-bottom: 38px;
     }
   }
-  .owl-carousel .owl-dots{
+  .price .owl-carousel .owl-dots{
       margin-top: 80px;
     }
 
@@ -566,7 +566,7 @@ footer{
     padding: 60px 0 60px;
   }
   .details {
-    padding: 19px 19px;
+    padding: 19px 0 19px;
     .details__description {
       padding-top: 0;
     }
@@ -615,6 +615,20 @@ footer{
     }
 }
 @media only screen and (max-width: 768px) {
+  .navbar-default {
+    margin-bottom: 15px;
+
+    .navbar-toggle {
+      border: none;
+
+      &:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+      }
+      .icon-bar {
+        background-color: white;
+      }
+    }
+  }
   .row {
     margin-left: 0;
     margin-right: 0;
@@ -692,18 +706,12 @@ footer{
     }
   }
 }
-@media only screen and (max-width: 420px) {
-  .navbar-default {
-    margin-bottom: 15px;
-
-    .navbar-toggle {
-      border: none;
-
-      .icon-bar {
-        background-color: white;
-      }
-    }
+@media only screen and (max-width: 6400px) {
+  .contact_us .contact_us__form {
+    padding: 60px 70px 100px 60px;
   }
+}
+@media only screen and (max-width: 420px) {
   .background {
     padding: 0;
 
@@ -711,7 +719,8 @@ footer{
       margin-right: 15px;
 
       &.btn.btn-primary {
-        padding: 20px 25px;
+        width: 45%;
+        padding: 20px 0;
       }
 
       &:last-of-type {
@@ -737,7 +746,7 @@ footer{
   }
   .price{
     .price__footer {
-      padding: 40px 0;
+      padding: 40px 15px;
       p {
         font-size: 33px;
       }
@@ -745,7 +754,8 @@ footer{
         margin-right: 15px;
 
         &.btn.btn-primary {
-          padding: 20px 27px;
+          width: 45%;
+          padding: 20px 0;
         }
 
         &:last-of-type {
@@ -763,11 +773,11 @@ footer{
       margin: 15px 15px 20px 0;
     }
   }
+  .phone, .location{
+    margin-bottom: 50px;
+  }
 }
 @media only screen and (max-width: 375px) {
-  .background a.btn.btn-primary,  .price .price__footer a.btn.btn-primary{
-    padding: 20px 21px;
-  }
   .price .price__footer p {
     font-size: 32px;
   }
@@ -781,10 +791,5 @@ footer{
   }
   .price__footer p {
     font-size: 31px;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .background a.btn.btn-primary, .price__footer a.btn.btn-primary{
-    padding: 20px 15px;
   }
 }
