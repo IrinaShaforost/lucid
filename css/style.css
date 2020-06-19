@@ -23,6 +23,9 @@
   border: 1px solid #454449;
   border-radius: 4px;
   margin-right: 20px; }
+  .background .btn:hover, .price .price__footer .btn:hover, .pricings_plans ul li:nth-of-type(4) .btn:hover, .contact_us .contact_us__form .btn:hover {
+    border: none;
+    padding: 21px 28px; }
   .background .btn.btn-primary, .price .price__footer .btn.btn-primary, .pricings_plans ul li:nth-of-type(4) .btn.btn-primary, .contact_us .contact_us__form .btn.btn-primary {
     color: #ffffff;
     font-family: "Source Sans Pro";
@@ -30,6 +33,8 @@
     font-weight: 700;
     line-height: 14px;
     background-color: transparent; }
+    .background .btn.btn-primary:hover, .price .price__footer .btn.btn-primary:hover, .pricings_plans ul li:nth-of-type(4) .btn.btn-primary:hover, .contact_us .contact_us__form .btn.btn-primary:hover {
+      background-color: #008ed6; }
 
 .subtitle {
   color: #008ed6;
@@ -120,11 +125,6 @@
     font-weight: 400;
     line-height: 27px;
     margin-bottom: 63px; }
-  .background a:nth-of-type(1) .btn {
-    border: none;
-    padding: 21px 28px; }
-  .background a:nth-of-type(1).btn-primary {
-    background-color: #008ed6; }
   .background .header__content_img img {
     width: 100%; }
 
@@ -312,11 +312,6 @@
     line-height: 36px; }
     .price .price__footer p span {
       font-weight: 600; }
-  .price .price__footer a:nth-of-type(1) .btn {
-    border: none;
-    padding: 20px 27px; }
-  .price .price__footer a:nth-of-type(1).btn-primary {
-    background-color: #008ed6; }
 
 .pricings_plans {
   padding: 60px 0; }
@@ -452,12 +447,6 @@
       resize: none;
       border: 1px solid rgba(255, 255, 255, 0.2);
       height: 185px; }
-    .contact_us .contact_us__form button {
-      margin: 20px 15px 0 0; }
-      .contact_us .contact_us__form button.btn.btn-primary {
-        background-color: #008ed6;
-        color: white;
-        text-transform: uppercase; }
 
 footer {
   background-color: #15141a;

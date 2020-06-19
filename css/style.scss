@@ -37,9 +37,16 @@ $ssp: "Source Sans Pro";
     border: 1px solid #454449;
     border-radius: 4px;
     margin-right: 20px;
+    &:hover{
+      border: none;
+      padding: 21px 28px;
+    }
     &.btn-primary {
       @include font-color(#ffffff, $ssp, 14px, 700, 14px);
       background-color: transparent;
+      &:hover{
+        background-color: #008ed6;
+      }
     }
   }
 }
@@ -128,16 +135,6 @@ $ssp: "Source Sans Pro";
     @include font-color(#808081, $ssp, 16px, 400, 27px);
     margin-bottom: 63px;
   }
-a:nth-of-type(1) {
-  .btn {
-    border: none;
-    padding: 21px 28px;
-  }
-
-  &.btn-primary {
-    background-color: #008ed6;
-  }
-}
   @extend %button;
   .header__content_img img{
     width: 100%;
@@ -345,16 +342,6 @@ a:nth-of-type(1) {
      }
     }
     @extend %button;
-    a:nth-of-type(1) {
-      .btn {
-        border: none;
-        padding: 20px 27px;
-      }
-
-      &.btn-primary {
-        background-color: #008ed6;
-      }
-    }
   }
 }
 .pricings_plans{
@@ -500,14 +487,6 @@ a:nth-of-type(1) {
       height: 185px;
     }
     @extend %button;
-    button{
-      margin: 20px 15px 0 0;
-      &.btn.btn-primary{
-        background-color: #008ed6;
-        color: white;
-        text-transform: uppercase;
-      }
-    }
   }
 }
 footer{
